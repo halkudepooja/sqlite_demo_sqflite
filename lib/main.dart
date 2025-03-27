@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sqlite_demo/UserDataDB/user_screen.dart';
 
 import 'db_helper.dart';
 
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: UserList_screen(),
+     // home: HomePage(),
     );
   }
 }
